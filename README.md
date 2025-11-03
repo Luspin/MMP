@@ -1,14 +1,35 @@
 # Miyoo Mini +
 ## Overlays
-### DMG-Inspirat
-Drew inspiration from **drkhrse**'s bezel and rebuilt it from scratch to join in on the MM+ customization fun.  
+### DMG
+#### Inspirat
+![Screenshot for 'Inspirat'](Screenshots/Inspirat.png)
   
-![DMG-Inspirat](Screenshots/DMG-Inspirat.png)
+Drew inspiration from **drkhrse**'s bezel and rebuilt it from scratch to join the MM+ customization fun.  
+
+---
+### Onyx
+![Screenshot for 'Onyx'](Screenshots/Onyx.png)
   
-### DMG-Inspirat (Onyx)
-A ~60% darker variant for late-night DMG sessions.
-![DMG-Inspirat (Onyx)](Screenshots/DMG-Inspirat%20(Onyx).png)
+A ~60% darker variant with rebalanced colors for late-night DMG sessions.  
+
+---
+### Mario's Picross (UE)
+![Screenshot for 'Onyx'](Screenshots/Game%20Specific/Mario's%20Picross%20(UE).png)
   
+A tribute to one of my most-played DMG games — inspired by the **Picross 2** overlay for the Super Game Boy.
+  
+## Palettes
+### DMG
+#### Inspirat
+![Palette preview for 'Inspirat'](Screenshots/Palette%20Previews/Inspirat.png)
+
+---
+#### Mario's Picross (UE)
+![Palette preview for 'Mario's Picross (UE)'](Screenshots/Palette%20Previews/Game%20Specific/Mario's%20Picross%20(UE).png)
+
+---
 #### ℹ️ NOTES
-- The **DOT MATRIX WITH STEREO SOUND** text uses the **Futura** font.  
-- Both variants maintain DMG-accurate tonal spacing adapted for the Miyoo Mini’s backlit LCD.
+- All .PNG files were optimized with [OptiPNG](https://optipng.sourceforge.net/).  
+- The **DOT MATRIX WITH STEREO SOUND** text label uses the **Futura** font.  
+- The **Nintendo** text label uses the **Pretendo** font.  
+- The **GAME BOY** text label uses the **Gill Sans** font.  
