@@ -23,6 +23,16 @@ _<sup>1, 2</sup> Earliest known firmware versions, but I couldn't find them anyw
 
 ---
 
+### Toolchains
+
+Toolchains for building custom software, with the first one being hosted by **steward-fu**.
+
+| Version| SHA256|
+| :--- | :--- |
+| [GCC 8.2.1](https://github.com/steward-fu/website/releases/download/miyoo-mini/mini_toolchain-v1.0.tar.gz) | `8addff71be4b015a4e1aef51e43635e50978d558a1675f5b1664124e8437d071` |
+
+---
+
 ### Overlays
 
 Custom overlay CFG files and respective PNGs.
