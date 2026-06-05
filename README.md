@@ -1,7 +1,3 @@
-# MMP
-
-A unified repository for all things **MIYOO Mini+** (MY354)
-
 ## Contents
 
 ### Firmware
