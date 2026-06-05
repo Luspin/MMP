@@ -1,33 +1,16 @@
-## Contents
+## Table of Contents
 
-### Firmware
-
-Mirrors for official MIYOO-provided firmware binaries, copied over from **annz1**.
-
-| Build                | Build Date | Full Name      |
-| :------------------- | :--------- | :------------- |
-| **0218**<sup>1</sup> | 2023/02/18 | `202302181113` |
-| **0302**<sup>2</sup> | 2023/03/02 | `202303021817` |
-| **0312**             | 2023/03/12 | `202303121739` |
-| **0326**             | 2023/03/26 | `202303262339` |
-| **0329**             | 2023/03/29 | `202303292051` |
-| **0505**             | 2023/05/05 | `202305052130` |
-| **0609**             | 2023/06/09 | `202306092122` |
-| **0628**             | 2023/06/28 | `202306282128` |
-
-_<sup>1, 2</sup> Earliest known firmware versions, but I couldn't find them anywhere._
-
----
-
-### Toolchains
-
-Toolchains for building custom software, with the first one being hosted by **steward-fu**.
-
-| Version                                                                                                    | SHA256                                                             |
-| :--------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------- |
-| [GCC 8.2.1](https://github.com/steward-fu/website/releases/download/miyoo-mini/mini_toolchain-v1.0.tar.gz) | `8addff71be4b015a4e1aef51e43635e50978d558a1675f5b1664124e8437d071` |
-
----
+> - [Overlays](#overlays)
+>   - [DMG](#dmg)
+>     - [Inspirat](#inspirat)
+>     - [Onyx](#onyx)
+>   - [Game-Specific](#game-specific)
+>     - [Mario's Picross](#marios-picross)
+> - [Palettes](#palettes)
+>   - [DMG](#dmg-1)
+>     - [Inspirat & Onyx](#inspirat--onyx)
+>     - [Mario's Picross](#marios-picross-1)
+> - [Notes](#notes)
 
 ### Overlays
 
@@ -35,15 +18,13 @@ Custom overlay CFG files and respective PNGs.
 
 ### DMG
 
-### _Inspirat_
+#### _Inspirat_
 
-Inspired by **drkhrse**'s bezel; remade from scratch with source-available PSD file.
+Inspired by **drkhrse**'s bezel; remade from scratch and with source-available PSD file.
 
 ![Screenshot for 'Inspirat'](Screenshots/Inspirat.png)
 
----
-
-### _Onyx_
+#### _Onyx_
 
 A ~60% darker variant with rebalanced colors for late-night DMG sessions.
 
@@ -53,7 +34,7 @@ A ~60% darker variant with rebalanced colors for late-night DMG sessions.
 
 ### Game-Specific
 
-### _Mario's Picross_
+#### _Mario's Picross_
 
 A tribute to one of my most-played DMG games; inspired by the **Picross 2** overlay for the **Super Game Boy**.
 
@@ -65,11 +46,11 @@ A tribute to one of my most-played DMG games; inspired by the **Picross 2** over
 
 ### DMG
 
-### _Inspirat_
+#### _Inspirat & Onyx_
 
-![Palette preview for 'Inspirat'](Screenshots/Palette%20Previews/Inspirat.png)
+![Palette preview for 'Inspirat & Onyx'](Screenshots/Palette%20Previews/Inspirat%20&%20Onyx.png)
 
-### _Mario's Picross_
+#### _Mario's Picross_
 
 ![Palette preview for 'Mario's Picross'](Screenshots/Palette%20Previews/Game%20Specific/Mario's%20Picross.png)
 
@@ -79,10 +60,10 @@ A tribute to one of my most-played DMG games; inspired by the **Picross 2** over
 >
 > All PNG files were optimized with [OptiPNG](https://optipng.sourceforge.net/).
 >
-> Fonts used in the text labels of the overlays, for anyone interested in making their own overlays with a similar aesthetic:
+> Fonts used in the text labels of the overlays, for anyone interested in making or remixing their own with a similar aesthetic:
 >
-> | Text Label                         | Font        |
-> | :--------------------------------- | :---------- |
-> | **DOT MATRIX WITH STEREO SOUND** | _Futura_    |
-> | **Nintendo**                     | _Pretendo_  |
-> | **GAME BOY**                     | _Gill Sans_ |
+> | Text Label                     | Font      |
+> | :----------------------------- | :-------- |
+> | _DOT MATRIX WITH STEREO SOUND_ | Futura    |
+> | _Nintendo_                     | Pretendo  |
+> | _GAME BOY_                     | Gill Sans |
