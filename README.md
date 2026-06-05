@@ -79,10 +79,10 @@ A tribute to one of my most-played DMG games; inspired by the **Picross 2** over
 >
 > All PNG files were optimized with [OptiPNG](https://optipng.sourceforge.net/).
 >
-> Fonts used in the text labels of the overlays, for anyone interested in making their own overlays with a similar aesthetic.
+> Fonts used in the text labels of the overlays, for anyone interested in making their own overlays with a similar aesthetic:
 >
 > | Text Label                         | Font        |
 > | :--------------------------------- | :---------- |
-> | **'DOT MATRIX WITH STEREO SOUND'** | _Futura_    |
-> | **'Nintendo'**                     | _Pretendo_  |
-> | **'GAME BOY'**                     | _Gill Sans_ |
+> | **DOT MATRIX WITH STEREO SOUND** | _Futura_    |
+> | **Nintendo**                     | _Pretendo_  |
+> | **GAME BOY**                     | _Gill Sans_ |
