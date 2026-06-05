@@ -7,12 +7,16 @@ Mirrors for official MIYOO-provided firmware binaries, copied over from **annz1*
 
 | Build | Build Date | Full Name |
 | --- | --- | --- |
+| **0218**<sup>1</sup> | 2023/02/18 | `202302181113` |
+| **0302**<sup>2</sup> | 2023/03/02 | `202303021817` |
 | **0312** | 2023/03/12 | `202303121739` |
 | **0326** | 2023/03/26 | `202303262339` |
 | **0329** | 2023/03/29 | `202303292051` |
 | **0505** | 2023/05/05 | `202305052130` |
 | **0609** | 2023/06/09 | `202306092122` |
 | **0628** | 2023/06/28 | `202306282128` |
+
+_<sup>1, 2</sup> Earliest known firmware versions, but I couldn't find them anywhere._
 
 ---
 ### Overlays
