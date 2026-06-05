@@ -23,8 +23,8 @@ _<sup>1, 2</sup> Earliest known firmware versions, but I couldn't find them anyw
 
 Toolchains for building custom software, with the first one being hosted by **steward-fu**.
 
-| Version| SHA256|
-| :--- | :--- |
+| Version                                                                                                    | SHA256                                                             |
+| :--------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------- |
 | [GCC 8.2.1](https://github.com/steward-fu/website/releases/download/miyoo-mini/mini_toolchain-v1.0.tar.gz) | `8addff71be4b015a4e1aef51e43635e50978d558a1675f5b1664124e8437d071` |
 
 ---
@@ -75,14 +75,14 @@ A tribute to one of my most-played DMG games; inspired by the **Picross 2** over
 
 ---
 
-### NOTES
-
-Fonts used in the text labels of the overlays, for anyone interested in making their own overlays with a similar aesthetic.
-
-| Text Label                         | Font        |
-| :--------------------------------- | :---------- |
-| **'DOT MATRIX WITH STEREO SOUND'** | _Futura_    |
-| **'Nintendo'**                     | _Pretendo_  |
-| **'GAME BOY'**                     | _Gill Sans_ |
-
-All PNG files were optimized with [OptiPNG](https://optipng.sourceforge.net/).
+> #### Notes
+>
+> All PNG files were optimized with [OptiPNG](https://optipng.sourceforge.net/).
+>
+> Fonts used in the text labels of the overlays, for anyone interested in making their own overlays with a similar aesthetic.
+>
+> | Text Label                         | Font        |
+> | :--------------------------------- | :---------- |
+> | **'DOT MATRIX WITH STEREO SOUND'** | _Futura_    |
+> | **'Nintendo'**                     | _Pretendo_  |
+> | **'GAME BOY'**                     | _Gill Sans_ |
