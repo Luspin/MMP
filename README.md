@@ -1,5 +1,5 @@
 > [!NOTE]  
-> For any software development purposes related to the Miyoo Mini, please refer to the accompanying [Wiki](https://github.com/Luspin/MMP/wiki).
+> For any software development purposes related to the Miyoo Mini, please refer to the accompanying [Wiki](https://github.com/Luspin/MMP/wiki) articles.
 
 ## Table of Contents
 
