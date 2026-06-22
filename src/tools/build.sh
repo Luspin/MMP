@@ -37,7 +37,7 @@ fetch https://ftp.gnu.org/gnu/binutils/binutils-2.32.tar.xz binutils-2.32.tar.xz
 mkdir -p binutils-2.32/build-arm && cd binutils-2.32/build-arm
 [ -f Makefile ] || ../configure --host=$HOST --target=$HOST \
     --disable-nls --disable-werror --disable-gdb --disable-readline \
-    CC=$CC LDFLAGS="-static -s" MAKEINFO=true
+    CC=$CC LDFLAGS="-s" MAKEINFO=true
 make -j"$JOBS" MAKEINFO=true
 cp binutils/readelf binutils/objdump binutils/addr2line "$STAGE/"
 cp binutils/nm-new "$STAGE/nm"
@@ -86,7 +86,7 @@ NATIVE_FILE="$PWD/src/file"
 cd "$SRC"
 # cross the ARM binary, using native file to compile the magic db
 mkdir -p file-5.39/build-arm && cd file-5.39/build-arm
-[ -f Makefile ] || ../configure --host=$HOST --disable-shared CC=$CC LDFLAGS="-static -s"
+[ -f Makefile ] || ../configure --host=$HOST --disable-shared CC=$CC LDFLAGS="-s"
 make -j"$JOBS" FILE_COMPILE="$NATIVE_FILE"
 cp src/file "$STAGE/"
 cp magic/magic.mgc "$STAGE/"
