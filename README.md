@@ -1,19 +1,18 @@
 > [!NOTE]  
-> For any software development purposes, please refer to the accompanying [Wiki](https://github.com/Luspin/MMP/wiki) page.
+> For any software development purposes, please refer to the accompanying 📖 [Wiki](https://github.com/Luspin/MMP/wiki).
 
 ## Table of Contents
 
 > - [Overlays](#overlays)
 >   - [DMG](#dmg)
->      - [Inspirat](#inspirat)
->      - [Onyx](#onyx)
+>     - [Inspirat](#inspirat)
+>     - [Onyx](#onyx)
 >   - [Game-Specific](#game-specific)
->      - [Mario's Picross](#marios-picross)
+>     - [Mario's Picross](#marios-picross)
 > - [Palettes](#palettes)
 >   - [DMG](#dmg-1)
->      - [Inspirat & Onyx](#inspirat--onyx)
->      - [Mario's Picross](#marios-picross-1)
-> - [Notes](#notes)
+>     - [Inspirat & Onyx](#inspirat--onyx)
+>     - [Mario's Picross](#marios-picross-1)
 
 ### Overlays
 
@@ -56,17 +55,3 @@ A tribute to one of my most-played DMG games; inspired by the **Picross 2** over
 #### _Mario's Picross_
 
 ![Palette preview for 'Mario's Picross'](Screenshots/Palette%20Previews/Game%20Specific/Mario's%20Picross.png)
-
----
-
-> #### Notes
->
-> All PNG files were optimized with [OptiPNG](https://optipng.sourceforge.net/).
->
-> Fonts used in the text labels of the overlays, for anyone interested in making or remixing their own with a similar aesthetic:
->
-> | Text Label                     | Font      |
-> | :----------------------------- | :-------- |
-> | _DOT MATRIX WITH STEREO SOUND_ | Futura    |
-> | _Nintendo_                     | Pretendo  |
-> | _GAME BOY_                     | Gill Sans |
