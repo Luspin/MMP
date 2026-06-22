@@ -1,0 +1,43 @@
+#!/bin/sh
+# ldd - list dynamic dependencies, for the SigmaStar Infinity2m (Miyoo Mini+).
+# glibc's ldd is a generated shell script; the device ships none. This is a
+# portable equivalent that drives the device's dynamic loader directly.
+#
+# Works on both executables and shared objects (.so). Uses the loader's
+# LD_TRACE_LOADED_OBJECTS facility.
+
+RTLD=/lib/ld-linux-armhf.so.3
+
+if [ $# -eq 0 ]; then
+    echo "usage: ldd FILE..." >&2
+    exit 1
+fi
+
+if [ ! -x "$RTLD" ]; then
+    echo "ldd: dynamic loader $RTLD not found" >&2
+    exit 1
+fi
+
+for file in "$@"; do
+    if [ ! -e "$file" ]; then
+        echo "ldd: $file: No such file or directory" >&2
+        continue
+    fi
+    # Resolve to an absolute path so the loader can exec it.
+    case "$file" in
+        /*) abs="$file" ;;
+        *)  abs="$(pwd)/$file" ;;
+    esac
+
+    if [ $# -gt 1 ]; then
+        echo "$file:"
+    fi
+
+    # Ask the loader to print the dependency tree and exit.
+    LD_TRACE_LOADED_OBJECTS=1 LD_WARN= "$RTLD" --list "$abs" 2>/dev/null \
+        && continue
+
+    # Fallback: set the env var and let the binary's own interpreter handle it.
+    LD_TRACE_LOADED_OBJECTS=1 "$abs" 2>/dev/null \
+        || echo "        not a dynamic executable"
+done
