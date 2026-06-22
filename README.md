@@ -1,18 +1,18 @@
 > [!NOTE]  
-> For any software development purposes related to the Miyoo Mini+, please refer to the accompanying [Wiki](https://github.com/Luspin/MMP/wiki) articles.
+> For any software development purposes, please refer to the accompanying [Wiki](https://github.com/Luspin/MMP/wiki) page.
 
 ## Table of Contents
 
 > - [Overlays](#overlays)
 >   - [DMG](#dmg)
->     - [Inspirat](#inspirat)
->     - [Onyx](#onyx)
+>      - [Inspirat](#inspirat)
+>      - [Onyx](#onyx)
 >   - [Game-Specific](#game-specific)
->     - [Mario's Picross](#marios-picross)
+>      - [Mario's Picross](#marios-picross)
 > - [Palettes](#palettes)
 >   - [DMG](#dmg-1)
->     - [Inspirat & Onyx](#inspirat--onyx)
->     - [Mario's Picross](#marios-picross-1)
+>      - [Inspirat & Onyx](#inspirat--onyx)
+>      - [Mario's Picross](#marios-picross-1)
 > - [Notes](#notes)
 
 ### Overlays
