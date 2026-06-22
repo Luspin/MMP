@@ -17,7 +17,7 @@ set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")" && pwd)"
 SRC="$ROOT/src"
-DL="$SRC/downloads"
+DL="$SRC/Downloads"
 STAGE="$ROOT/binaries"
 JOBS="$(nproc)"
 
